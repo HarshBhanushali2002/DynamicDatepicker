@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    /* color: red; */
+    margin-left: 2rem;
+}
+
+
+.datespan{
+    color: #581561;
+    border: 1px solid #581561;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 5px rgb(105, 105, 105);
+    align-items: center;
+}
+
+
+.datepicker1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2rem;
+}
+
+.dateicon{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: #581561;
+    cursor: pointer;
+}
+
+.beforedate{
+    color: #9f82a3;
+}
+
+.date {
+    position: absolute;
+    top: 128px;
+    /* z-index: 2; */
+}
